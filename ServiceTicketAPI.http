@@ -1,0 +1,11 @@
+@ServiceTicketAPI_HostAddress = http://localhost:5267
+
+GET {{ServiceTicketAPI_HostAddress}}/tickets
+Accept: application/json
+
+###
+
+GET {{ServiceTicketAPI_HostAddress}}/tickets/1
+Accept: application/json
+
+###
